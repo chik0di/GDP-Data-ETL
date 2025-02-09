@@ -5,6 +5,12 @@ You have been hired as a junior Data Engineer and are tasked with creating an au
 
 Since IMF releases this evaluation twice a year, this code will be used by the organization to extract the information as it is updated.
 
+The required information needs to be made accessible as a CSV file Countries_by_GDP.csv as well as a table Countries_by_GDP in a database file World_Economies.db with attributes Country and GDP_USD_billion.
+
+Your boss wants you to demonstrate the success of this code by running a query on the database table to display only the entries with more than a 100 billion USD economy. Also, you should log in a file with the entire process of execution named etl_project_log.txt.
+
+You must create a Python code 'etl_project_gdp.py' that performs all the required tasks.
+
 ## Source
 The required data seems to be available on the URL mentioned below:
 
@@ -23,23 +29,18 @@ You have to complete the following tasks for this project
 - Log the progress of the code with appropriate timestamps.
   
 
-The required information needs to be made accessible as a CSV file Countries_by_GDP.csv as well as a table Countries_by_GDP in a database file World_Economies.db with attributes Country and GDP_USD_billion.
-
-Your boss wants you to demonstrate the success of this code by running a query on the database table to display only the entries with more than a 100 billion USD economy. Also, you should log in a file with the entire process of execution named etl_project_log.txt.
-
-You must create a Python code 'etl_project_gdp.py' that performs all the required tasks.
 
 ## Initial setup
 The libraries needed for the code are as follows:
 
-requests - The library used for accessing the information from the URL.
+- requests - The library used for accessing the information from the URL.
 
-bs4 - The library containing the BeautifulSoup function used for webscraping.
+- bs4 - The library containing the BeautifulSoup function used for webscraping.
 
-pandas - The library used for processing the extracted data, storing it to required formats and communicating with the databases.
+- pandas - The library used for processing the extracted data, storing it to required formats and communicating with the databases.
 
-sqlite3 - The library required to create a database server connection.
+- sqlite3 - The library required to create a database server connection.
 
-numpy - The library required for the mathematical rounding operation as required in the objectives.
+- numpy - The library required for the mathematical rounding operation as required in the objectives.
 
-datetime - The library containing the function datetime used for extracting the timestamp for logging purposes.
+- datetime - The library containing the function datetime used for extracting the timestamp for logging purposes.
