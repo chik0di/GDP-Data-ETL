@@ -31,7 +31,7 @@ You have to complete the following tasks for this project
 
 
 ## Initial setup
-The libraries needed for the code are as follows:
+The libraries needed to run the script are as follows:
 
 - requests - The library used for accessing the information from the URL.
 
