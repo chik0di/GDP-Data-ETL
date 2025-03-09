@@ -29,7 +29,6 @@ You have to complete the following tasks for this project
 - Log the progress of the code with appropriate timestamps.
   
 
-
 ## Initial setup
 The libraries needed to run the script are as follows:
 
