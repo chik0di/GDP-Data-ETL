@@ -17,7 +17,7 @@ The required data seems to be available on the URL mentioned below:
 'https://web.archive.org/web/20230902185326/https://en.wikipedia.org/wiki/List_of_countries_by_GDP_%28nominal%29'
 
 ## Objectives
-You have to complete the following tasks for this project
+You have to complete the following tasks for this project:
 - Write a data extraction function to retrieve the relevant information from the required URL.
 
 - Transform the available GDP information into 'Billion USD' from 'Million USD'.
