@@ -10,7 +10,7 @@ The required information needs to be made accessible as a CSV file Countries_by_
 Your boss wants you to demonstrate the success of this code by running a query on the database table to display only the entries with more than a 100 billion USD economy. Also, you should log in a file with the entire process of execution named etl_project_log.txt.
 
 You must create a Python code 'etl_project_gdp.py' that performs all the required tasks.
-
+ 
 ## Source
 The required data seems to be available on the URL mentioned below:
 
