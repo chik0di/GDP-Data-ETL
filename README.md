@@ -11,7 +11,7 @@ Your boss wants you to demonstrate the success of this code by running a query o
 
 You must create a Python code 'etl_project_gdp.py' that performs all the required tasks.
  
-## Source
+## Source 
 The required data seems to be available on the URL mentioned below:
 
 'https://web.archive.org/web/20230902185326/https://en.wikipedia.org/wiki/List_of_countries_by_GDP_%28nominal%29'
