@@ -29,17 +29,35 @@ You have to complete the following tasks for this project:
 - Log the progress of the code with appropriate timestamps.
   
 
-## Initial setup
+<h1 align="center">Initial setup</h1>
+
 The libraries needed to run the script are as follows:
 
-- requests - The library used for accessing the information from the URL.
+- requests - used for accessing the information from the URL.
 
-- bs4 - The library containing the BeautifulSoup function used for webscraping.
+- bs4 - containing the BeautifulSoup function used for webscraping.
 
-- pandas - The library used for processing the extracted data, storing it to required formats and communicating with the databases.
+- pandas - used for processing the extracted data, storing it to required formats and communicating with the databases.
 
-- sqlite3 - The library required to create a database server connection.
+- sqlite3 - required to create a database server connection.
 
-- numpy - The library required for the mathematical rounding operation as required in the objectives.
+- numpy - required for the mathematical rounding operation as required in the objectives.
 
 - datetime - The library containing the function datetime used for extracting the timestamp for logging purposes.
+
+Before running the script, make sure you have Python installed (preferably Python 3.6 or higher).
+
+Install the required Python libraries by running the following command:
+
+```bash
+pip install requests beautifulsoup4 pandas numpy
+```
+
+
+<h3 align="right">Assigned By</h3>
+<p align="right">
+  <a href="https://www.coursera.org/account/accomplishments/verify/TG89DJFGV7VD?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" title="View Certificate from IBM on Coursera">
+    <img width="100" src="https://img.icons8.com/nolan/64/ibm.png" alt="IBM" />
+  </a>
+</p>
+
