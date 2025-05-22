@@ -1,4 +1,5 @@
-## Project Scenario:
+<h1 align="center">International GDP Ranking ETL Workflow</h1>
+
 An international firm that is looking to expand its business in different countries across the world has recruited you. 
 
 You have been hired as a junior Data Engineer and are tasked with creating an automated script that can extract the list of all countries in order of their GDPs in billion USDs (rounded to 2 decimal places), as logged by the International Monetary Fund (IMF). 
@@ -11,12 +12,13 @@ Your boss wants you to demonstrate the success of this code by running a query o
 
 You must create a Python code 'etl_project_gdp.py' that performs all the required tasks.
  
-## Source 
+<h2 align="center">Data Source</h2>
 The required data seems to be available on the URL mentioned below:
 
 'https://web.archive.org/web/20230902185326/https://en.wikipedia.org/wiki/List_of_countries_by_GDP_%28nominal%29'
 
-## Objectives
+<h2 align="center">Objectives</h2>
+
 You have to complete the following tasks for this project:
 - Write a data extraction function to retrieve the relevant information from the required URL.
 
@@ -29,7 +31,7 @@ You have to complete the following tasks for this project:
 - Log the progress of the code with appropriate timestamps.
   
 
-<h1 align="center">Initial setup</h1>
+<h2 align="center">Initial setup</h2>
 
 The libraries needed to run the script are as follows:
 
