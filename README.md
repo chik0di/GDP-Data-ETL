@@ -1,5 +1,9 @@
 <h1 align="center">International GDP Ranking ETL Workflow</h1>
 
+<p align="center">
+  <img src="https://i.imgur.com/nrQBEgF.png" width="900" alt="Project Preview" />
+</p>
+
 An international firm that is looking to expand its business in different countries across the world has recruited you. 
 
 You have been hired as a junior Data Engineer and are tasked with creating an automated script that can extract the list of all countries in order of their GDPs in billion USDs (rounded to 2 decimal places), as logged by the International Monetary Fund (IMF). 
